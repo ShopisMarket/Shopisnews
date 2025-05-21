@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Search, Moon, Sun, Menu } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { cn } from '../../lib/utils';
-import { ReactComponent as Logo } from '../../.../public/logo.svg'; 
+import { ReactComponent as Logo } from '../../.../public/logo-light.svg'; 
 
 interface HeaderProps {
   toggleSidebar: () => void;
@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ toggleSidebar }) => {
   className="flex items-center space-x-2"
 >
   <div className="h-8 w-8">
-    <img src="/logo.svg" alt="shoppinglist logo" />
+    <img src="/logo-light.svg" alt="shoppinglist logo" />
   </div>
   <span className="hidden md:inline-block font-bold text-xl">Shoppland Wiki</span>
 </Link>
