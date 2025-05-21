@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Search, Moon, Sun, Menu } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { cn } from '../../lib/utils';
+import { ReactComponent as Logo } from '../../.../public/logo.svg'; 
 
 interface HeaderProps {
   toggleSidebar: () => void;
@@ -26,19 +27,15 @@ const Header: React.FC<HeaderProps> = ({ toggleSidebar }) => {
         
         <div className="flex items-center">
           <Link 
-            to="/" 
-            className="flex items-center space-x-2"
-          >
-            <div className="h-8 w-8 rounded-md overflow-hidden">
-              <div className={cn(
-                "h-full w-full flex items-center justify-center text-white",
-                "bg-blue-500 dark:bg-blue-600"
-              )}>
-                <span className="font-bold text-lg">S</span>
-              </div>
-            </div>
-            <span className="hidden md:inline-block font-bold text-xl">Shoppland Wiki</span>
-          </Link>
+  to="/" 
+  className="flex items-center space-x-2"
+>
+  <div className="h-8 w-8">
+    <img src="/logo.svg" alt="shoppinglist logo" />
+  </div>
+  <span className="hidden md:inline-block font-bold text-xl">Shoppland Wiki</span>
+</Link>
+
         </div>
         
         <div className="flex-1 flex justify-end md:justify-center px-4">
