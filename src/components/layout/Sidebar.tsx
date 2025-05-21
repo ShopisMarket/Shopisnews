@@ -1,16 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '../../lib/utils';
-import {
-  ChevronDown,
-  ShoppingBag,
-  Home,
-  Users,
-  CreditCard,
-  Settings,
-  HelpCircle,
-  BookOpen
-} from 'lucide-react';
+import { ChevronDown, ShoppingBag, Home, Users, CreditCard, Settings, HelpCircle, BookOpen } from 'lucide-react';
 
 interface SidebarProps {
   isOpen: boolean;
@@ -42,10 +33,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
   return (
     <div className={cn(
       "fixed inset-y-0 left-0 z-30 w-64 bg-background border-r border-border transform transition-transform duration-300 ease-in-out lg:translate-x-0",
-      "mt-16", // <-- Décalage vers le bas (taille du header)
       isOpen ? "translate-x-0" : "-translate-x-full",
     )}>
-      <div className="flex flex-col h-[calc(100vh-4rem)] py-4"> {/* 4rem = 64px */}
+      <div className="flex flex-col h-full py-4">
         <div className="space-y-6 flex-1 px-4 overflow-y-auto">
           {mainCategories.map((category, i) => (
             <div key={i} className="py-2">
