@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ toggleSidebar }) => {
   <div className="h-8 w-8">
     <img src="/logo-light.svg" alt="shoppinglist logo" />
   </div>
-  <span className="hidden md:inline-block font-bold text-xl">Shoppland Wiki</span>
+  <span className="hidden md:inline-block font-bold text-xl">ShoppList Blog</span>
 </Link>
 
         </div>
