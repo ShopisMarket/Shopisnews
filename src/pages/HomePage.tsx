@@ -83,7 +83,7 @@ const HomePage: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-8">
           <h1 className="text-4xl font-bold mb-4">ShoppListApp Newsroom</h1>
           <p className="text-lg text-muted-foreground">
-            Your comprehensive guide to the Shoppland e-commerce platform. Find detailed information, tutorials, and best practices.
+            Your comprehensive guide to the ShopplistApp platform. Find detailed information, tutorials, and best practices.
           </p>
         </div>
         
