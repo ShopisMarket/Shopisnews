@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Payment Processing',
       description: 'Understand how Shoppland handles payments, supported gateways, and security features.',
-      imageSrc: 'https://blog.uber-cdn.com/cdn-cgi/image/width=768,quality=80,onerror=redirect,format=auto/wp-content/uploads/2023/09/Screenshot-2023-09-01-at-16.44.29.png',
+      imageSrc: 'https://embed-ssl.wistia.com/deliveries/8bfdd3f6880dd7d3876b09ffd61d7072.webp?image_crop_resized=960x540',
       path: '/payment-system'
     }
   ];
