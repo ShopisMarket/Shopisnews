@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Product Management Guide',
       description: 'Learn how to effectively manage your product catalog, including adding, editing, and organizing products.',
-      imageSrc: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      imageSrc: 'https://blog.uber-cdn.com/cdn-cgi/image/width=768,quality=80,onerror=redirect,format=auto/wp-content/uploads/2023/09/Uber-blog-imagery_Agency.png',
       path: '/products'
     },
     {
