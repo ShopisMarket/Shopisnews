@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Payment Processing',
       description: 'Understand how Shoppland handles payments, supported gateways, and security features.',
-      imageSrc: 'https://images.pexels.com/photos/4386366/pexels-photo-4386366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      imageSrc: 'https://asset.chase.com/content/dam/structured-images/chase-ux/inline-media/ca/resources/payment-processing-101/payment-processing-101-header.jpg',
       path: '/payment-system'
     }
   ];
