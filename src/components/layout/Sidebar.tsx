@@ -15,7 +15,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
       title: 'Main',
       links: [
         { title: 'Home', path: '/', icon: <Home className="h-4 w-4 mr-2" /> },
-        { title: 'About ShoppList', path: '/about', icon: <BookOpen className="h-4 w-4 mr-2" /> },
+        { title: 'About Shoppland', path: '/about', icon: <BookOpen className="h-4 w-4 mr-2" /> },
         { title: 'Getting Started', path: '/getting-started', icon: <HelpCircle className="h-4 w-4 mr-2" /> }
       ]
     },
