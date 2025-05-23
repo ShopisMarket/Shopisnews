@@ -6,7 +6,8 @@ import { ChevronDown, ShoppingBag, Home, Users, CreditCard, Settings, HelpCircle
 interface SidebarProps {
   isOpen: boolean;
 }
-
+<br />
+<br />
 const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
   const location = useLocation();
   
