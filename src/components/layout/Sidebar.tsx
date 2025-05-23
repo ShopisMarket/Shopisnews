@@ -8,6 +8,8 @@ interface SidebarProps {
 }
 <br />
 <br />
+<br />
+<br />
 const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
   const location = useLocation();
   
