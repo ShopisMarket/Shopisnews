@@ -36,7 +36,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
       isOpen ? "translate-x-0" : "-translate-x-full",
     )}>
       <div className="flex flex-col h-full py-4">
-        <div className="space-y-6 flex-1 px-4 overflow-y-auto pt-12">
+        <div className="space-y-6 flex-1 px-4 overflow-y-auto pt-14">
           {mainCategories.map((category, i) => (
             <div key={i} className="py-2">
               <h3 className="text-sm font-medium text-muted-foreground mb-2 px-2 flex items-center">
