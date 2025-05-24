@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Getting Started with Shoppland',
       description: 'A comprehensive guide for new users to start using the Shoppland e-commerce platform.',
-      imageSrc: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      imageSrc: 'https://github.com/ShopListapp/shopisnews/blob/main/public/mockup.svg',
       path: '/getting-started'
     },
     {
