@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Getting Started with Shoppland',
       description: 'A comprehensive guide for new users to start using the Shoppland e-commerce platform.',
-      imageSrc: '/mockup.jpg',
+      imageSrc: 'https://blog.uber-cdn.com/cdn-cgi/image/width=1536,quality=80,onerror=redirect,format=auto/wp-content/uploads/2022/07/Blog-Image-1.png',
       path: '/getting-started'
     },
     {
