@@ -108,7 +108,7 @@ const HomePage: React.FC = () => {
           <div className="md:w-1/2">
             <h2 className="text-xl font-bold mb-4">About Shoppland Wiki</h2>
             <p className="text-muted-foreground mb-4">
-              Shoppland Wiki is a community-driven resource dedicated to documenting all aspects of the Shoppland e-commerce platform. Our goal is to provide comprehensive, up-to-date information for users at all levels.
+              Shoppland Wiki is a community-driven resource dedicated to documenting all aspects of the Shopplistapp cross-platform. Our goal is to provide comprehensive, up-to-date information for all users.
             </p>
             <p className="text-muted-foreground">
               We welcome contributions from the community. If you'd like to help improve the wiki, please visit our contribution guidelines.
