@@ -83,7 +83,7 @@ const HomePage: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-8">
           <h1 className="text-4xl font-bold mb-4">ShoppisApp Newsroom</h1>
           <p className="text-lg text-muted-foreground">
-            Applcloud de listes de courses multiplateforme. Find detailed information, tutorials, and best practices.
+            Applcloud de listes de courses multiplateforme. New Updares, tutorials, and best practices.
           </p>
         </div>
         
