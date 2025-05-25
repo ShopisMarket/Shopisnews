@@ -113,7 +113,7 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
               <li><strong>Europe</strong> (EU countries, UK, Switzerland)</li>
               <li><strong>North America</strong> (United States, Canada)</li>
               <li><strong>Asia-Pacific</strong> (Australia, New Zealand, Singapore, Japan)</li>
-              <li><strong>Africa</strong> (South Afraca, Kenya, Moroco, Egypt)</li>
+              <li><strong>Africa</strong> (South Africa, Kenya, Moroco, Egypt)</li>
               <li><strong>Latin America</strong> (Mexico, Brazil, Argentina)</li>
             </ul>
             <p>
