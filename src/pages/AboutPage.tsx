@@ -17,7 +17,7 @@ const AboutPage: React.FC = () => {
   ];
 
   const versionHistory = [
-    ['1.0', 'Initial Release', 'Jan 2024', 'Core e-commerce functionality'],
+    ['1.0', 'Initial Release', 'Jan 2024', 'Core ShoppListApp functionality'],
     ['1.5', 'Feature Update', 'Mar 2024', 'Added multi-currency support and improved checkout'],
     ['2.0', 'Major Release', 'May 2025', 'Complete redesign with enhanced mobile experience']
   ];
