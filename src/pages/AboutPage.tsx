@@ -62,7 +62,7 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
           <section id="technical-architecture" className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Technical Architecture</h2>
             <p className="mb-4">
-              Shoppland is built on a modern tech stack that prioritizes performance, security, and scalability:
+              Shopis is built on a modern tech stack that prioritizes performance, security, and scalability:
             </p>
             <ul className="list-disc pl-5 mb-4 space-y-2">
               <li>Frontend: React.js with a responsive design system for optimal user experience across devices</li>
@@ -107,7 +107,7 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
             
             <h3 id="supported-regions" className="text-xl font-medium mt-6 mb-3">Supported Regions</h3>
             <p className="mb-4">
-              Shoppland is available globally with specific optimizations for the following regions:
+              Shopis App is available globally with specific optimizations for the following regions on <strong>App Store</strong> and <strong>Google Play</strong>:
             </p>
             <ul className="list-disc pl-5 mb-4 space-y-1">
               <li><strong>Europe</strong> (EU countries, UK, Switzerland)</li>
@@ -124,7 +124,7 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
           <section id="extensibility" className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Extensibility</h2>
             <p className="mb-4">
-              Shoppland was designed with extensibility as a core principle. The platform offers multiple ways to customize 
+              Shoppis was designed with extensibility as a core principle. The platform offers multiple ways to customize 
               and extend functionality:
             </p>
             <ul className="list-disc pl-5 mb-4 space-y-1">
@@ -144,11 +144,11 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
         
         <aside className="md:w-1/4">
           <div className="sticky top-20">
-            <InfoBox title="Shoppland at a Glance">
+            <InfoBox title="ShopisApp at a Glance">
               <div className="space-y-3">
                 <div>
                   <h4 className="text-sm font-medium">Type</h4>
-                  <p className="text-sm">E-commerce Platform</p>
+                  <p className="text-sm">Smart ShoppList Management App </p>
                 </div>
                 <div>
                   <h4 className="text-sm font-medium">Release Date</h4>
@@ -165,12 +165,12 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
                 <div>
                   <h4 className="text-sm font-medium">Website</h4>
                   <a 
-                    href="https://shoppland.netlify.app/" 
+                    href="https://shopisofficial.netlify.app/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-sm text-primary hover:underline"
                   >
-                    shoppland.netlify.app
+                    shopisofficial.netlify.app
                   </a>
                 </div>
               </div>
