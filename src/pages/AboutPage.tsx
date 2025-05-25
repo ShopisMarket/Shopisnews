@@ -25,7 +25,7 @@ const AboutPage: React.FC = () => {
   return (
     <article>
       <ArticleHeader 
-        title="About Shoppland" 
+        title="About Shoppis" 
         lastModified="May 15, 2025"
         author="Wiki Admin"
       />
@@ -110,11 +110,11 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
               Shoppland is available globally with specific optimizations for the following regions:
             </p>
             <ul className="list-disc pl-5 mb-4 space-y-1">
-              <li>Europe (EU countries, UK, Switzerland)</li>
-              <li>North America (United States, Canada)</li>
-              <li>Asia-Pacific (Australia, New Zealand, Singapore, Japan)</li>
-              <li>Africa (South Afraca, Kenya, Moroco, Egypt)</li>
-              <li>Latin America (Mexico, Brazil, Argentina)</li>
+              <li><strong>Europe</strong> (EU countries, UK, Switzerland)</li>
+              <li><strong>North America</strong> (United States, Canada)</li>
+              <li><strong>Asia-Pacific</strong> (Australia, New Zealand, Singapore, Japan)</li>
+              <li><strong>Africa</strong> (South Afraca, Kenya, Moroco, Egypt)</li>
+              <li><strong>Latin America</strong> (Mexico, Brazil, Argentina)</li>
             </ul>
             <p>
               Each region includes localized payment methods, tax calculations, and service options to provide a smooth and personalized experience tailored to the user's location.
