@@ -144,11 +144,11 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
         
         <aside className="md:w-1/4">
           <div className="sticky top-20">
-            <InfoBox title="ShopisApp at a Glance">
+            <InfoBox title="Shoppis App at a Glance">
               <div className="space-y-3">
                 <div>
                   <h4 className="text-sm font-medium">Type</h4>
-                  <p className="text-sm">Smart ShoppList Management App </p>
+                  <p className="text-sm">Smart ShoppList App </p>
                 </div>
                 <div>
                   <h4 className="text-sm font-medium">Release Date</h4>
