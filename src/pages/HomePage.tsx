@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingBag, Users, CreditCard, Settings, HelpCircle, Zap, Shield, Handshake, command, handshake, UsersRound } from 'lucide-react';
+import { ShoppingBag, Users, CreditCard, Settings, HelpCircle, Zap, Shield, Handshake, Command, handshake, UsersRound } from 'lucide-react';
 import FeaturedArticle from '../components/home/FeaturedArticle';
 import CategoryCard from '../components/home/CategoryCard';
 
@@ -85,7 +85,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Features',
       description: 'Innovative features that make ShoppingListApp the smartest way to shop.',
-      icon: command,
+      icon: Command,
       path: '/Features',
       articleCount: 9
     },
