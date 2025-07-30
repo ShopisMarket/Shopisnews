@@ -1,4 +1,9 @@
 import React, { useEffect } from 'react';
+import ArticleHeader from '../components/wiki/ArticleHeader';
+import TableOfContents from '../components/wiki/TableOfContents';
+import InfoBox from '../components/wiki/InfoBox';
+import WikiTable from '../components/wiki/WikiTable';
+import Categories from '../components/wiki/Categories';
 import { ClipboardList, Utensils, DollarSign, Gift, Heart } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
 import FeatureCard from '../components/FeatureCard';
