@@ -78,7 +78,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Services',
       description: 'Designed to simplify your shopping experience from planning to checkout.',
-      icon: Shield,
+      icon: Wrench,
       path: '/ServicesPage',
       articleCount: 9
     },
