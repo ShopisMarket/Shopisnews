@@ -92,7 +92,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Stats & Advice',
       description: 'Track your shopping habits, gain insights, and discover tips to save money and time.',
-      icon: handshake,
+      icon: Handshake,
       path: '/Stats & Advice',
       articleCount: 9
     },
