@@ -1,5 +1,5 @@
 import React from 'react';
-import {ShoppingBag, Users, CreditCard, Settings, HelpCircle, Zap, Shield, Handshake, Command, UsersRound} from 'lucide-react';
+import { ShoppingBag, Users, CreditCard, Settings, HelpCircle, Zap, Shield, Handshake, Command, UsersRound } from 'lucide-react';
 import FeaturedArticle from '../components/home/FeaturedArticle';
 import CategoryCard from '../components/home/CategoryCard';
 
