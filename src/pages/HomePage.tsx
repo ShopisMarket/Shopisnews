@@ -69,10 +69,10 @@ const HomePage: React.FC = () => {
       articleCount: 6
     },
     {
-      title: 'Security',
+      title: 'Security & Privacy',
       description: 'Best practices for securing your Shoppland store',
       icon: Shield,
-      path: '/security',
+      path: '/security & Privacy',
       articleCount: 9
     }, 
     {
@@ -97,7 +97,7 @@ const HomePage: React.FC = () => {
       articleCount: 9
     },
     {
-      title: 'Community',
+      title: 'Community Forum',
       description: 'Join our vibrant community of shoppers to share tips, get help, and participate in our food donation initiatives.',
       icon: Shield,
       path: '/Community',
