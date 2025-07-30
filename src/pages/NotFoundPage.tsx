@@ -1,10 +1,13 @@
 import React, { useEffect } from 'react';
-import { PieChart, BarChart, LineChart, Newspaper } from 'lucide-react';
+import { 
+  Repeat, Mic, Scan, Bell, Navigation, ShoppingBag, 
+  Smartphone, CircleDollarSign, Cpu 
+} from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
 
-const StatsPage: React.FC = () => {
+const FeaturesPage: React.FC = () => {
   useEffect(() => {
-    document.title = 'Statistics & Advice - ShoppingListApp';
+    document.title = 'Advanced Features - ShoppingListApp';
   }, []);
 
   return (
@@ -13,309 +16,271 @@ const StatsPage: React.FC = () => {
       <section className="bg-blue-800 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl font-bold text-white mb-6">Statistics & Advice</h1>
+            <h1 className="text-4xl font-bold text-white mb-6">Advanced Features</h1>
             <p className="text-xl text-blue-100">
-              Track your shopping habits, gain insights, and discover tips to save money and time.
+              Discover the innovative features that make ShoppingListApp the smartest way to shop.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Shopping Insights */}
+      {/* Price Comparison */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <SectionHeading 
-            title="Personal Shopping Insights"
-            subtitle="Get detailed statistics about your shopping habits to make informed decisions and save money."
-          />
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-md">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="p-2 bg-blue-100 rounded-full">
-                  <PieChart className="h-6 w-6 text-blue-800" />
-                </div>
-                <h3 className="text-xl font-semibold">Spending by Category</h3>
-              </div>
-              <div className="aspect-square bg-gray-100 rounded-lg flex items-center justify-center">
-                <div className="w-3/4 h-3/4 rounded-full relative">
-                  {/* Simplified Pie Chart Visualization */}
-                  <div className="absolute inset-0 rounded-full" style={{ 
-                    background: 'conic-gradient(#1E40AF 0% 30%, #3B82F6 30% 55%, #93C5FD 55% 70%, #BFDBFE 70% 85%, #DBEAFE 85% 100%)' 
-                  }}></div>
-                  <div className="absolute inset-0 rounded-full bg-white w-1/2 h-1/2 m-auto"></div>
-                </div>
-              </div>
-              <div className="mt-6 space-y-2">
-                <div className="flex items-center space-x-2">
-                  <span className="w-3 h-3 bg-blue-900 rounded-full"></span>
-                  <span className="text-sm text-gray-600">Groceries - 30%</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span className="w-3 h-3 bg-blue-600 rounded-full"></span>
-                  <span className="text-sm text-gray-600">Fresh Produce - 25%</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span className="w-3 h-3 bg-blue-400 rounded-full"></span>
-                  <span className="text-sm text-gray-600">Meat & Dairy - 15%</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span className="w-3 h-3 bg-blue-300 rounded-full"></span>
-                  <span className="text-sm text-gray-600">Household - 15%</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span className="w-3 h-3 bg-blue-100 rounded-full"></span>
-                  <span className="text-sm text-gray-600">Other - 15%</span>
-                </div>
-              </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Real-Time Price Comparison</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                Never overpay for groceries again. Our app compares prices across multiple stores in your area in real-time, helping you find the best deals.
+              </p>
+              <ul className="space-y-4">
+                <li className="flex items-start space-x-3">
+                  <span className="bg-blue-100 text-blue-800 rounded-full p-1 flex-shrink-0 mt-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                  <span className="text-gray-700">Compare prices across multiple stores simultaneously</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="bg-blue-100 text-blue-800 rounded-full p-1 flex-shrink-0 mt-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                  <span className="text-gray-700">Get notified when prices drop for items on your list</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="bg-blue-100 text-blue-800 rounded-full p-1 flex-shrink-0 mt-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                  <span className="text-gray-700">View historical price trends for your most purchased items</span>
+                </li>
+              </ul>
             </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-md">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="p-2 bg-blue-100 rounded-full">
-                  <BarChart className="h-6 w-6 text-blue-800" />
+            <div className="order-first lg:order-last flex justify-center">
+              <div className="relative w-64 h-64 md:w-80 md:h-80">
+                <div className="absolute top-0 left-0 w-full h-full bg-blue-100 rounded-full opacity-30"></div>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <Repeat className="w-32 h-32 text-blue-800" />
                 </div>
-                <h3 className="text-xl font-semibold">Monthly Spending</h3>
-              </div>
-              <div className="aspect-square bg-gray-100 rounded-lg flex items-end justify-around p-4">
-                {/* Simplified Bar Chart Visualization */}
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '75%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '60%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '80%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '65%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '70%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '55%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '90%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '50%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '65%' }}></div>
-                <div className="w-[8%] bg-blue-800 rounded-t" style={{ height: '70%' }}></div>
-              </div>
-              <div className="mt-6">
-                <p className="text-sm text-gray-600 mb-2">Average monthly spending: <span className="font-semibold">$420</span></p>
-                <p className="text-sm text-gray-600">Highest spending month: <span className="font-semibold">July - $520</span></p>
-                <p className="text-sm text-gray-600">Lowest spending month: <span className="font-semibold">February - $340</span></p>
-              </div>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-md">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="p-2 bg-blue-100 rounded-full">
-                  <LineChart className="h-6 w-6 text-blue-800" />
-                </div>
-                <h3 className="text-xl font-semibold">Savings Trends</h3>
-              </div>
-              <div className="aspect-square bg-gray-100 rounded-lg relative p-4">
-                {/* Simplified Line Chart Visualization */}
-                <svg viewBox="0 0 100 100" className="w-full h-full">
-                  <polyline
-                    points="0,80 10,75 20,70 30,72 40,65 50,60 60,50 70,48 80,35 90,30 100,20"
-                    fill="none"
-                    stroke="#1E40AF"
-                    strokeWidth="3"
-                  />
-                </svg>
-              </div>
-              <div className="mt-6">
-                <p className="text-sm text-gray-600 mb-2">Total savings this year: <span className="font-semibold">$340</span></p>
-                <p className="text-sm text-gray-600">Average savings per month: <span className="font-semibold">$42.50</span></p>
-                <p className="text-sm text-gray-600 text-green-600">Trend: <span className="font-semibold">+12% increase</span></p>
               </div>
             </div>
           </div>
         </div>
       </section>
       
-      {/* Shopping Tips */}
+      {/* Voice and Barcode */}
       <section className="py-20 bg-gray-100">
         <div className="container mx-auto px-4">
           <SectionHeading 
-            title="Smart Shopping Tips"
-            subtitle="Practical advice to help you save money and shop more efficiently."
+            title="Quick Input Methods"
+            subtitle="Add items to your shopping list faster than ever with these convenient input methods."
           />
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">Seasonal Buying Guide</h3>
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <Mic className="h-8 w-8 text-blue-800" />
+                </div>
+                <h3 className="text-2xl font-semibold">Voice Recognition</h3>
+              </div>
               <p className="text-gray-600 mb-6">
-                Shopping for produce in season not only ensures you get the freshest items but also saves you money.
+                Simply speak to add items to your shopping list. Perfect for when your hands are busy cooking or you're on the go.
               </p>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold mb-2">Spring (March - May)</h4>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Asparagus</span>
-                    <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Peas</span>
-                    <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Strawberries</span>
-                    <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Rhubarb</span>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Summer (June - August)</h4>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Tomatoes</span>
-                    <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Berries</span>
-                    <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Corn</span>
-                    <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Cucumbers</span>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Fall (September - November)</h4>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Apples</span>
-                    <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Pumpkins</span>
-                    <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Squash</span>
-                    <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Pears</span>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Winter (December - February)</h4>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Citrus</span>
-                    <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Kale</span>
-                    <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Brussels Sprouts</span>
-                    <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Root Vegetables</span>
+              <div className="relative rounded-lg overflow-hidden h-48 bg-gray-200">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-56 h-12 bg-white rounded-full shadow-md flex items-center justify-center px-4">
+                    <div className="animate-pulse flex space-x-2 items-center">
+                      <div className="h-3 w-3 bg-red-500 rounded-full"></div>
+                      <div className="h-2 w-32 bg-gray-300 rounded"></div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">Money-Saving Strategies</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start space-x-4">
-                  <div className="bg-blue-100 text-blue-800 font-bold h-8 w-8 rounded-full flex items-center justify-center flex-shrink-0">
-                    1
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <Scan className="h-8 w-8 text-blue-800" />
+                </div>
+                <h3 className="text-2xl font-semibold">Barcode Scanner</h3>
+              </div>
+              <p className="text-gray-600 mb-6">
+                Scan product barcodes to instantly add items to your list with accurate product names, sizes, and even price estimates.
+              </p>
+              <div className="relative rounded-lg overflow-hidden h-48 bg-gray-200">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-56 h-56 border-2 border-blue-500 rounded relative">
+                    <div className="absolute top-1/2 w-full h-0.5 bg-red-500 animate-pulse"></div>
                   </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Shop with a list</h4>
-                    <p className="text-gray-600">
-                      Plan your meals for the week and create a detailed list to avoid impulse purchases, which can add 20-30% to your bill.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-start space-x-4">
-                  <div className="bg-blue-100 text-blue-800 font-bold h-8 w-8 rounded-full flex items-center justify-center flex-shrink-0">
-                    2
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Compare unit prices</h4>
-                    <p className="text-gray-600">
-                      Look at the price per unit (oz, lb, etc.) rather than the package price to ensure you're getting the best value.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-start space-x-4">
-                  <div className="bg-blue-100 text-blue-800 font-bold h-8 w-8 rounded-full flex items-center justify-center flex-shrink-0">
-                    3
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Shop the perimeter</h4>
-                    <p className="text-gray-600">
-                      Fresh foods are usually located around the edges of the store. Processed foods in the center aisles often cost more for less nutritional value.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-start space-x-4">
-                  <div className="bg-blue-100 text-blue-800 font-bold h-8 w-8 rounded-full flex items-center justify-center flex-shrink-0">
-                    4
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Buy in bulk selectively</h4>
-                    <p className="text-gray-600">
-                      Only buy large quantities of non-perishable items or things you know you'll use before they expire.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       
-      {/* Blog Preview */}
+      {/* Smart Notifications */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <SectionHeading 
-            title="From Our Blog"
-            subtitle="Latest articles and tips from our shopping experts."
-          />
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group">
-              <div className="aspect-video bg-gray-200 rounded-t-lg mb-4 overflow-hidden">
-                <img 
-                  src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                  alt="Grocery shopping with reusable bags" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-4">
-                <span className="text-sm text-blue-600 font-medium">Sustainability</span>
-                <h3 className="text-xl font-semibold mt-1 mb-2 group-hover:text-blue-800 transition-colors">
-                  10 Ways to Reduce Waste While Grocery Shopping
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Simple strategies to minimize packaging waste and make environmentally friendly choices during your weekly shop.
-                </p>
-                <a href="#" className="text-blue-800 font-medium hover:underline">
-                  Read Article →
-                </a>
-              </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-first lg:order-last">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Smart Notifications & Reminders</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                Never forget an item or miss a deal with our intelligent notification system that delivers the right information at the right time.
+              </p>
+              <ul className="space-y-4">
+                <li className="flex items-start space-x-3">
+                  <span className="bg-blue-100 text-blue-800 rounded-full p-1 flex-shrink-0 mt-1">
+                    <Bell className="h-4 w-4" />
+                  </span>
+                  <span className="text-gray-700">Location-based reminders when you're near a store with items on your list</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="bg-blue-100 text-blue-800 rounded-full p-1 flex-shrink-0 mt-1">
+                    <Bell className="h-4 w-4" />
+                  </span>
+                  <span className="text-gray-700">Price drop alerts for items you regularly purchase</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="bg-blue-100 text-blue-800 rounded-full p-1 flex-shrink-0 mt-1">
+                    <Bell className="h-4 w-4" />
+                  </span>
+                  <span className="text-gray-700">Weekly shopping reminders based on your usual shopping patterns</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="bg-blue-100 text-blue-800 rounded-full p-1 flex-shrink-0 mt-1">
+                    <Bell className="h-4 w-4" />
+                  </span>
+                  <span className="text-gray-700">Smart suggestions for items you might be running low on</span>
+                </li>
+              </ul>
             </div>
-            
-            <div className="group">
-              <div className="aspect-video bg-gray-200 rounded-t-lg mb-4 overflow-hidden">
-                <img 
-                  src="https://images.pexels.com/photos/1132558/pexels-photo-1132558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                  alt="Person comparing prices on mobile phone" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-4">
-                <span className="text-sm text-blue-600 font-medium">Budgeting</span>
-                <h3 className="text-xl font-semibold mt-1 mb-2 group-hover:text-blue-800 transition-colors">
-                  How to Cut Your Grocery Bill by 30% Without Coupons
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Discover practical strategies that go beyond couponing to significantly reduce your monthly food expenses.
-                </p>
-                <a href="#" className="text-blue-800 font-medium hover:underline">
-                  Read Article →
-                </a>
-              </div>
-            </div>
-            
-            <div className="group">
-              <div className="aspect-video bg-gray-200 rounded-t-lg mb-4 overflow-hidden">
-                <img 
-                  src="https://images.pexels.com/photos/7129720/pexels-photo-7129720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                  alt="Person organizing refrigerator" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-4">
-                <span className="text-sm text-blue-600 font-medium">Organization</span>
-                <h3 className="text-xl font-semibold mt-1 mb-2 group-hover:text-blue-800 transition-colors">
-                  The Ultimate Guide to Organizing Your Pantry and Fridge
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Learn how to organize your food storage spaces to reduce waste, save money, and make meal planning easier.
-                </p>
-                <a href="#" className="text-blue-800 font-medium hover:underline">
-                  Read Article →
-                </a>
+            <div className="flex justify-center">
+              <div className="relative w-64 h-64 md:w-80 md:h-80">
+                <div className="absolute top-0 left-0 w-full h-full bg-blue-100 rounded-full opacity-30"></div>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <Bell className="w-32 h-32 text-blue-800" />
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      
+      {/* In-Store Navigation & Voice Assistant */}
+      <section className="py-20 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <SectionHeading 
+            title="Hands-Free Shopping Experience"
+            subtitle="Let our app guide you through the store and help you find everything on your list."
+          />
           
-          <div className="text-center mt-12">
-            <a 
-              href="#" 
-              className="inline-flex items-center space-x-2 text-blue-800 font-semibold hover:text-blue-700 transition-colors"
-            >
-              <Newspaper className="h-5 w-5" />
-              <span>View All Blog Posts</span>
-            </a>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-md">
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <Navigation className="h-8 w-8 text-blue-800" />
+                </div>
+                <h3 className="text-2xl font-semibold">In-Store Navigation</h3>
+              </div>
+              <p className="text-gray-600 mb-6">
+                Navigate through the store with aisle-by-aisle directions to find every item on your list in the most efficient order.
+              </p>
+              <div className="rounded-lg overflow-hidden h-64 bg-gray-200 relative">
+                <div className="absolute inset-0 bg-blue-900 opacity-10"></div>
+                <div className="absolute inset-0 p-4">
+                  <div className="h-full w-full bg-white rounded-lg flex items-center justify-center">
+                    <div className="relative w-full h-full">
+                      <div className="absolute top-0 left-0 w-full h-full">
+                        <div className="grid grid-cols-4 grid-rows-4 gap-1 h-full">
+                          {[...Array(16)].map((_, i) => (
+                            <div key={i} className="bg-gray-100 border border-gray-200"></div>
+                          ))}
+                        </div>
+                      </div>
+                      <div className="absolute top-1/4 left-1/4 h-3 w-3 bg-blue-500 rounded-full animate-ping"></div>
+                      <div className="absolute bottom-1/3 right-1/4 h-3 w-3 bg-green-500 rounded-full"></div>
+                      <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                        <div className="w-3/4 h-0.5 bg-blue-500 transform rotate-45"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-xl shadow-md">
+              <div className="flex items-center space-x-4 mb-6">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <ShoppingBag className="h-8 w-8 text-blue-800" />
+                </div>
+                <h3 className="text-2xl font-semibold">Voice Assistant</h3>
+              </div>
+              <p className="text-gray-600 mb-6">
+                Our integrated voice assistant reads your shopping list aloud, allowing for a hands-free shopping experience.
+              </p>
+              <div className="rounded-lg overflow-hidden h-64 bg-gray-200 flex items-center justify-center">
+                <div className="relative">
+                  <div className="w-64 h-64 rounded-full bg-blue-100 opacity-50 flex items-center justify-center">
+                    <div className="w-48 h-48 rounded-full bg-blue-200 opacity-60 flex items-center justify-center">
+                      <div className="w-32 h-32 rounded-full bg-blue-300 opacity-70 flex items-center justify-center">
+                        <div className="w-16 h-16 rounded-full bg-blue-400 opacity-80 flex items-center justify-center animate-pulse">
+                          <Mic className="h-8 w-8 text-white" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Technology Behind */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <SectionHeading 
+            title="Technology Behind ShoppingListApp"
+            subtitle="Learn about the advanced technologies that power our features and make your shopping experience seamless."
+          />
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 border border-gray-200 rounded-xl shadow-sm">
+              <div className="p-3 bg-blue-100 rounded-full inline-block mb-4">
+                <Smartphone className="h-6 w-6 text-blue-800" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Mobile-First Design</h3>
+              <p className="text-gray-600">
+                Our app is designed for optimal mobile experience with intuitive gestures, offline functionality, and battery-efficient operation.
+              </p>
+            </div>
+            
+            <div className="bg-white p-6 border border-gray-200 rounded-xl shadow-sm">
+              <div className="p-3 bg-blue-100 rounded-full inline-block mb-4">
+                <CircleDollarSign className="h-6 w-6 text-blue-800" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Price Intelligence</h3>
+              <p className="text-gray-600">
+                Our proprietary price tracking algorithms collect and analyze millions of price points to provide accurate comparisons and predictions.
+              </p>
+            </div>
+            
+            <div className="bg-white p-6 border border-gray-200 rounded-xl shadow-sm">
+              <div className="p-3 bg-blue-100 rounded-full inline-block mb-4">
+                <Cpu className="h-6 w-6 text-blue-800" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3">AI & Machine Learning</h3>
+              <p className="text-gray-600">
+                Advanced machine learning models analyze your shopping patterns to provide personalized recommendations and optimize your shopping experience.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -323,4 +288,4 @@ const StatsPage: React.FC = () => {
   );
 };
 
-export default StatsPage;
+export default FeaturesPage;
