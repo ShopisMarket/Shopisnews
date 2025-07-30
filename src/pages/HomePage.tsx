@@ -85,21 +85,21 @@ const HomePage: React.FC = () => {
     {
       title: 'Features',
       description: 'Innovative features that make ShoppingListApp the smartest way to shop.',
-      icon: Shield,
+      icon: command,
       path: '/Features',
       articleCount: 9
     },
     {
       title: 'Stats & Advice',
       description: 'Track your shopping habits, gain insights, and discover tips to save money and time.',
-      icon: Shield,
+      icon: handshake,
       path: '/Stats & Advice',
       articleCount: 9
     },
     {
       title: 'Community Forum',
       description: 'Join our vibrant community of shoppers to share tips, get help, and participate in our food donation initiatives.',
-      icon: Shield,
+      icon: users-round,
       path: '/Community',
       articleCount: 9
     }
