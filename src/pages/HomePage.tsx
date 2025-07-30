@@ -2,8 +2,6 @@ import React from 'react';
 import { ShoppingBag, Users, CreditCard, Settings, HelpCircle, Zap, Shield, Handshake, Command, UsersRound } from 'lucide-react';
 import FeaturedArticle from '../components/home/FeaturedArticle';
 import CategoryCard from '../components/home/CategoryCard';
-import { Users } from "lucide-react";
-
 
 const HomePage: React.FC = () => {
   const featuredArticles = [
@@ -101,7 +99,7 @@ const HomePage: React.FC = () => {
     {
       title: 'Community Forum',
       description: 'Join our vibrant community of shoppers to share tips, get help, and participate in our food donation initiatives.',
-      icon: users-round,
+      icon: UsersRound,
       path: '/Community',
       articleCount: 9
     }
