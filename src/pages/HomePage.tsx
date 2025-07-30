@@ -74,6 +74,13 @@ const HomePage: React.FC = () => {
       icon: Shield,
       path: '/security',
       articleCount: 9
+    }, 
+    {
+      title: 'Security',
+      description: 'Best practices for securing your Shoppland store',
+      icon: Shield,
+      path: '/security',
+      articleCount: 9
     }
   ];
 
