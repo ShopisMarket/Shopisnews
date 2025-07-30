@@ -20,7 +20,7 @@ const ArticleHeader: React.FC<ArticleHeaderProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between text-sm text-muted-foreground">
         <div className="flex items-center space-x-1">
           <span>From</span>
-          <a href="#" className="text-primary hover:underline">Shoppland Wiki</a>
+          <a href="https://shopiswiki.netlify.app/" className="text-primary hover:underline">Shoppland Wiki</a>
         </div>
         
         <div className="flex items-center space-x-3 mt-2 sm:mt-0">
