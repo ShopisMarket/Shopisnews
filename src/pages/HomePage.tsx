@@ -76,10 +76,31 @@ const HomePage: React.FC = () => {
       articleCount: 9
     }, 
     {
-      title: 'Security',
-      description: 'Best practices for securing your Shoppland store',
+      title: 'Services',
+      description: 'Designed to simplify your shopping experience from planning to checkout.',
       icon: Shield,
-      path: '/security',
+      path: '/Services',
+      articleCount: 9
+    },
+    {
+      title: 'Features',
+      description: 'Innovative features that make ShoppingListApp the smartest way to shop.',
+      icon: Shield,
+      path: '/Features',
+      articleCount: 9
+    },
+    {
+      title: 'Stats & Advice',
+      description: 'Track your shopping habits, gain insights, and discover tips to save money and time.',
+      icon: Shield,
+      path: '/Stats & Advice',
+      articleCount: 9
+    },
+    {
+      title: 'Community',
+      description: 'Join our vibrant community of shoppers to share tips, get help, and participate in our food donation initiatives.',
+      icon: Shield,
+      path: '/Community',
       articleCount: 9
     }
   ];
