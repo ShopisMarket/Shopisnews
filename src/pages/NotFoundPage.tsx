@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ArticleHeader from '../components/wiki/ArticleHeader';
 import { ClipboardList, Utensils, DollarSign, Gift, Heart } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
 import FeatureCard from '../components/FeatureCard';
