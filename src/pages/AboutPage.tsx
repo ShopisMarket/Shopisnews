@@ -165,12 +165,12 @@ Focused on simplicity, collaboration, and convenience, <strong>Shopis</strong> o
                 <div>
                   <h4 className="text-sm font-medium">Website</h4>
                   <a 
-                    href="https://shopisofficial.netlify.app/" 
+                    href="https://shopis.netlify.app/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-sm text-primary hover:underline"
                   >
-                    shopisofficial.netlify.app
+                    shopis.netlify.app
                   </a>
                 </div>
               </div>
