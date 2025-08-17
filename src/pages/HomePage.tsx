@@ -84,7 +84,7 @@ const HomePage: React.FC = () => {
     },
     {
       title: 'Features',
-      description: 'Innovative features that make ShoppingListApp the smartest way to shop.',
+      description: 'Innovative features that make Shopisapp the smartest way to shop.',
       icon: Command,
       path: '/Features',
       articleCount: 9
